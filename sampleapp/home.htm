@@ -1,0 +1,24 @@
+<div data-bb-type="screen" data-bb-effect="fade">
+	
+	
+		<div style="height:175px; width:550px;margin: 0px auto 0px auto;">
+			<h1 style="height:12%; text-align:center; padding-top:3%;">App Title or Image</h1>		
+		</div>
+		
+		<h2>Please choose an item below</h2>
+	
+
+	<div data-bb-type="image-list" data-bb-image-effect="fade">
+	
+		<div data-bb-type="item" onclick="bb.pushScreen('calculator.htm', 'calculator');"data-bb-img="images/icons/icon4.png" data-bb-title="Calculator">A simple function calculator</div>	
+		<div data-bb-type="item" onclick="bb.pushScreen('slider.htm', 'slider');" data-bb-img="images/icons/icon3.png" data-bb-title="Slider">Example of a Slider</div> 
+		<div data-bb-type="item" onclick="bb.pushScreen('table.htm', 'table');"data-bb-img="images/icons/icon2.png" data-bb-title="Table Example">An example of a formatted table</div>
+	</div>
+
+
+	
+	<div data-bb-type="action-bar">
+		<div data-bb-type="action" data-bb-style="button" data-bb-img="images/actionBar/cog_dark_theme.png" onclick="bb.pushScreen('action1.htm', 'action1');">Action 1</div>
+		<div data-bb-type="action" data-bb-style="button" data-bb-img="images/actionBar/cog_dark_theme.png" onclick="alert('You clicked Action 2. This could trigger an alert or load a page, or any other action you wish');">Action 2</div>
+	</div>
+</div>
